@@ -1,0 +1,11 @@
+# ===================================================================
+# Keep Glob for Fossil SCM Repository
+# ===================================================================
+# --- Local Secrets & Config ---
+.env
+.env.*
+dev.secret.exs
+test.secret.exs
+# --- Local Databases ---
+*.sqlite3
+*.db

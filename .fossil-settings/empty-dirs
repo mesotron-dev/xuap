@@ -1,0 +1,9 @@
+# ===================================================================
+# Empty-dirs for Fossil SCM Repository
+# ===================================================================
+# --- Standard Elixir dirs ---
+lib/
+test/
+priv/
+# --- Custom project dirs ---
+*/assets/

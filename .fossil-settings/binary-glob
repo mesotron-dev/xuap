@@ -1,0 +1,20 @@
+# ===================================================================
+# Binary Glob for Fossil SCM Repository
+# ===================================================================
+# --- Compiled Code ---
+*.beam
+*.ez
+# --- Images & Assets ---
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.svg
+*.woff
+*.woff2
+*.ttf
+*.eot
+# --- Databases ---
+*.sqlite3
+*.db

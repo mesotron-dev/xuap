@@ -1,0 +1,52 @@
+# ===================================================================
+# Ignore Glob for Fossil SCM Repository (Elixir/OTP)
+# ===================================================================
+# See: https://fossil-scm.org/home/doc/trunk/www/settings.wiki
+# --- Elixir/Mix Build Artifacts ---
+_build/
+deps/
+.fetch
+*.ez
+# --- Documentation & Test Artifacts ---
+doc/
+cover/
+tmp/
+# --- Erlang Crash Dumps ---
+erl_crash.dump
+# --- Editor & Language Server Caches ---
+.elixir_ls/
+.lexical/
+.vscode/
+.idea/
+*.swp
+*.swo
+# --- Environment & Secrets ---
+.env
+.env.*
+*.secret.exs
+# --- Git Mirroring ---
+.git/
+.mirror_state/
+# --- OS Metadata ---
+.DS_Store
+Thumbs.db
+# --- SQLite database files ---
+*.sqlite3
+*.db
+*.db-*
+.pytest_cache/
+# --- Logs & Test Artifacts ---
+*.log
+*.dump
+dist/log/
+dist/tmp/
+# --- Dependencies ---
+node_modules/
+# --- Other ---
+/static/
+# --- Ensure these files are versioned ---
+!.gitignore
+!.containerignore
+!mix.lock
+!.formatter.exs
+!.tool-versions

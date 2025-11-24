@@ -1,0 +1,13 @@
+# ===================================================================
+# Clean Glob for Fossil SCM Repository (Elixir/OTP)
+# ===================================================================
+# --- Build & Dependencies ---
+_build/
+deps/
+# --- Generated Documentation ---
+doc/
+# --- Test Coverage ---
+cover/
+# --- Temporary Files ---
+tmp/
+erl_crash.dump

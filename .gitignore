@@ -1,0 +1,47 @@
+# ===================================================================
+# Ignore File for Elixir Git Repository
+# ===================================================================
+
+# --- Fossil & SCM ---
+# Ignore Fossil checkout databases if present in the Git working copy
+.fslckout
+.mirror_state/
+
+# --- Elixir & Erlang Build Artifacts ---
+/_build/
+/deps/
+*.ez
+
+# --- Documentation ---
+/doc/
+
+# --- Test & Coverage ---
+/cover/
+/tmp/
+
+# --- Editor & Language Server Caches ---
+.elixir_ls/
+.lexical/
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+
+# --- SQLite database files ---
+*.sqlite3
+*.db
+*.db-*
+
+# --- Environment & Secrets ---
+.env
+.env.*
+*.secret.exs
+
+# --- OS Metadata ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+*.dump
