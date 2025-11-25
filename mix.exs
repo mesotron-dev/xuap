@@ -39,7 +39,7 @@ defmodule Xuap.MixProject do
     [
       name: :xuap,
       files: ~w(lib priv mix.exs README.md LICENSE CHANGELOG.md),
-      maintainers: ["Your Name"],
+      maintainers: ["Mesotron"],
       licenses: ["Apache-2.0"],
       links: %{"GitHub" => @source_url}
     ]
